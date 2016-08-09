@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Train Times</title> <!-- Page Title -->
+			<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+			<script src="https://code.jquery.com/jquery.js"></script>
+
+			
+	</head>
+	<body>
+		<div class="container">
+       		<div class="row" id="first">
+       			<div class="col-md-12" >
+       				<h1><strong>Train Time!</strong></h1> <!-- Title on page -->
+       			</div>		
+            </div>
+        </div>
+
+        <br>
+
+		<div class="container">
+  			<div class="jumbotron"> <!-- Jumbotron -->
+  				<div id="trainTimes row"> <!-- Space holder: for the train times. -->
+  					<div class="col-md-3">
+  					<span>Train Name:</span>
+  					</div>
+  					<div class="col-md-3">
+  					<span>Destination:</span>
+  					</div>
+  					<div class="col-md-2">
+  					<span>Train Arrival:</span>
+  					</div>
+  					<div class="col-md-2">
+  					<span>Minutes Away:
+  					</span>
+  					</div>
+  					<div class="col-md-2">
+  					<span>Next Train:</span>
+  					</div>
+  				</div>
+  				<br>
+  				<!-- <div> 
+  					<button class= "reset btn btn-danger btn-lg"> 
+  						<span>Reset</span>
+  					</button>
+  				</div> -->
+  			</div> 
+		</div>
+
+		<br>
+		<div class="container">
+			<div class="row"">
+				<div class="col-md-4">
+					<span>Name of the Train.</span>
+				</div>
+				<div class="col-md-4">
+					<input type="text" name="phrase" id="inputName" maxlength="40">
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="container">
+			<div class="row"">
+				<div class="col-md-4">
+					<span> Train Destination. </span>
+				</div>
+				<div class="col-md-4">
+					<input type="text" name="phrase" id="inputDestination" maxlength="40">
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+		</div>
+
+		<br>
+		
+		<div class="container">
+			<div class="row"">
+				<div class="col-md-4">
+					<span> Time of the Next trains arrival. </span>
+				</div>
+				<div class="col-md-4">
+				<input type="text" name="phrase" id="inputTime" maxlength="40">
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="container">
+			<div class="row"">
+				<div class="col-md-4">
+					<span> Frequency of Trains on this route. </span>
+				</div>
+				<div class="col-md-4">
+				<input type="text" name="phrase" id="inputFrequency" maxlength="40">
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" id="last">
+					<input type="submit" value="Submit New Train" id="addSubmit">
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="container">
+			<div class="row"">
+				<div class="col-md-12">
+					<br>
+					<h1><strong>Instructions:</strong></h1> 
+					<p>Input First train time and interval between trains.
+					</p>
+				</div>
+			</div>
+		</div>
+			
+		<div>
+			<br><br>
+		</div>
+
+		
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" id="last">
+						<p id="copy"> &copy; Copyright2016 David Bunner</p>
+				</div>
+			</div>
+		</div>
+	
+
+	
+	<div id="numAttemps">
+	</div>
+
+		<script src="assets/javascript/game.js"></script>
+	
+
+
+
+	</body>
+</html>
+
